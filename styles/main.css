@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    background-color: hsl(217, 54%, 11%);
+    width: 1440px;
+    height: 900px;
+}
+
+.card {
+    width: 350px;
+    height: 600px;
+    background-color: #142740;
+    border-radius: 8px;
+    position: relative;
+    left: 450px;
+    top: 200px;
+}
+
+.imagen img {
+    width: 310px;
+    height: auto;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    border-radius: 8px;
+}
+
+.texto {
+    position: absolute;
+    top: 360px;
+    left: 25px;
+    right: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #4F6684;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+}
+
+.texto p {
+    color: #4F6684;
+    margin-top: 16px;
+    margin-right: 15px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.textoAd {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.textoAd div {
+    display: flex;
+    align-items: center;
+}
+
+.textoAd img {
+    height: 20px;
+    margin-right: 7px;
+}
+
+.span1 {
+    color: #0AF7ED;
+    font-weight: 900;
+}
+
+.span2 {
+    color: #4F6684;
+    font-weight: 900
+}
+
+.autor {
+    display: flex;    
+    position: relative;
+}
+
+.autor img {
+    height: 35px;
+    border-radius: 50%;
+    color: white;
+    border-style: solid;
+    position: absolute;
+    top: 540px;
+    left: 20px;
+}
+.autor p{
+    color:#4F6684;
+    position: absolute;
+    top: 550px;
+    left: 75px;
+}
+.autor p span{
+    color:white
+}
+
+.sombra2 {
+    background-color: #0C1729;
+    width: 390px;
+    height: 600px;
+    border-radius: 10px;
+    position: absolute;
+    top: 220px;
+    left: 430px;
+}
+
+.sombra1 {
+    background-color: #0C192C;
+    width: 430px;
+    height: 600px;
+    border-radius: 10px;
+    position: absolute;
+    top: 240px;
+    left: 410px;
+}

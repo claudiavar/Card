@@ -1,0 +1,73 @@
+/*Esto es una declaracion global*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+section {
+    background-color: hsl(217,54%,11%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 500px;
+    width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 14px;    
+}
+
+.card-foto{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    height: 310px;
+}
+
+.image-principal{
+    border-radius: 14px;
+    width: 250px;
+}
+.text-white{
+    color:white;
+    font-weight: bold;
+}
+
+.contenedor-dos{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text-gray{
+    margin-top: 15px;
+    color: white;
+    opacity: 0.3;
+}
+.contenedor-detalle{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text-eth{
+color: hsl(178,51%,50%);
+}
+.text-reloj{
+    color: hsl(215,51%,70%);
+}
+
+.contenedor-autor{  
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+
+  .autor{
+    margin-left: 10px;    
+  }
+  .foto{
+    border-radius: 50%;  
+    border: solid 1px white;
+  }
